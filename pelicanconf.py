@@ -4,9 +4,15 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Joshua Acosta'
 SITENAME = u"Joshua's Blog"
-SITEURL = ''
+SITEURL = 'joshuaacosta.github.io'
 
 PATH = 'content'
+
+THEME = "pelican-themes/pelican-bootstrap3"
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['i18n_subsites']
+
 
 TIMEZONE = 'America/New_York'
 
