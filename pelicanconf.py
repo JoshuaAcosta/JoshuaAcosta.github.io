@@ -5,6 +5,12 @@ from __future__ import unicode_literals
 AUTHOR = u'Joshua Acosta'
 SITENAME = u"Joshua's Blog"
 SITEURL = ''
+SITETITLE = AUTHOR
+SITESUBTITLE = "Graduate CS Student"
+
+SITELOGO = '/images/photo.png'
+
+STATIC_PATHS = ['images']
 
 PATH = 'content'
 
@@ -14,6 +20,8 @@ THEME = "pelican-themes/Flex"
 
 DEFAULT_LANG = u'en'
 
+DISPLAY_PAGES_ON_MENU = True
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -22,14 +30,13 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+#LINKS = ()
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('linkedin', 'https://www.linkedin.com/in/joshuaacosta/'),
+          ('github', 'https://github.com/joshuaacosta'),
+          ('twitter', 'https://twitter.com/Josh_Acosta'),
+          )
 
 DEFAULT_PAGINATION = 10
 
