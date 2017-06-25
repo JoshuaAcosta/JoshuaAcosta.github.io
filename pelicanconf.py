@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Joshua Acosta'
 SITENAME = u"Joshua's Blog"
-SITEURL = ''
+SITEURL = 'https://joshuaacosta.github.io'
 SITETITLE = AUTHOR
 SITESUBTITLE = "Graduate CS Student"
 
@@ -17,6 +17,10 @@ PATH = 'content'
 TIMEZONE = 'America/New_York'
 
 THEME = "pelican-themes/Flex"
+
+USE_FOLDER_AS_CATEGORY = False
+COPYRIGHT_YEAR = 2017
+FEED_DOMAIN = SITEURL
 
 DEFAULT_LANG = u'en'
 
