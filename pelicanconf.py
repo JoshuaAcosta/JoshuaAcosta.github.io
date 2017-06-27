@@ -36,9 +36,8 @@ MENUITEMS = (('Archives', '/archives'),
 
 DISPLAY_PAGES_ON_MENU = True
 
-#GOOGLE_ANALYTICS = ''
-#GOOGLE_TAG_MANAGER = ''
-#DISQUS_SITENAME = ''
+GOOGLE_ANALYTICS = 'UA-101748016-1'
+DISQUS_SITENAME = 'joshuaacosta-github-io'
 
 # Feed generation is usually not desired when developing
 FEED_DOMAIN = SITEURL
