@@ -120,7 +120,7 @@
   <div>
     <p><img alt="Joshua_on_simulator.jpg" src="https://JoshuaAcosta.github.io/images/Joshua_on_simulator.jpg"></p>
 <p>Me on the simulator at the 2022 Formula E New York City E-Prix</p>
-<p>With the return of  Formula 1 to America to the U.S. with the United States Grand Prix at the Circuit of the Americas in 2012 and Netflix releasing his acclaimed Drive to Survive series, Formula 1’s popularity has exploded in the United States. After watching the Netflix series myself and the infamous Abu Dhabi ending to the 2021 championship, I’ve been hooked and have watched every qualifying session and race day in the 2022 season (unfortunately I choose to support Scuderia Ferrari and after several strategy mistakes and reliability issues, I’m starting to wonder if I backed the wrong horse). Since I’m new to motorsports, I was curious about the history of F1 and specifically the history of American drivers, constructors and circuits within the pinnacle of motorsports. I found a site that publishes a dataset containing a list drivers, constructors, circuits and race results. I downloaded the csv files, created tables and relationships in a PostgreSQL database and loaded the csv files to perform some analysis.</p>
+<p>With the return of  Formula 1 to America to the U.S. with the United States Grand Prix at the Circuit of the Americas in 2012 and Netflix releasing his acclaimed Drive to Survive series, Formula 1’s popularity has exploded in the United States. After watching the Netflix series myself and the infamous Abu Dhabi ending to the 2021 championship, I’ve been hooked and have watched every qualifying session and race day in the 2022 season (unfortunately I choose to support Scuderia Ferrari and after several strategy mistakes and reliability issues, I’m starting to wonder if I backed the wrong horse). Since I’m new to motorsports, I was curious about the history of F1 and specifically the history of American drivers, constructors and circuits within the pinnacle of motorsports. I found a site that publishes a dataset containing a list drivers, constructors, circuits and race results. I downloaded the csv files, created tables (which can be found <a href="https://github.com/JoshuaAcosta/Formula1_Data_Analysis/blob/main/sql/create_tables.sql">here</a>) and relationships in a PostgreSQL database and loaded the csv files to perform some analysis.</p>
 <div class="highlight"><pre><span></span><code><span class="c1">#import libraries</span>
 <span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -1917,9 +1917,11 @@ The most fascinating and hilarious tidbit I learned has to be about F1 race that
 <h2>Conclusion</h2>
 <p>While some F1 fans bemoan the addiion of American circuits on the calendar, potential constructors and drivers as the Americanization of Formula 1 likes, the United States has rich history in Formula 1. America has had race winners, two separate world champions and held numerous races in different cities since the inception of F1. Can't wait to see the first American night race in Las Vegas in 2023!</p>
 <h3>Data Source</h3>
-<p>-http://ergast.com/mrd/</p>
-<p>-http://ergast.com/docs/f1db_user_guide.txt</p>
-<p>-http://ergast.com/images/ergast_db.png</p>
+<ul>
+<li>http://ergast.com/mrd/    </li>
+<li>http://ergast.com/docs/f1db_user_guide.txt   </li>
+<li>http://ergast.com/images/ergast_db.png</li>
+</ul>
   </div>
   <div class="tag-cloud">
     <p>
